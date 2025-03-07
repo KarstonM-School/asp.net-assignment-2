@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\School\\Asp .Net\\Assignments\\Assignment 2\\asp.net-assignment-2\\Assignment2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3F69B76C-4C4C-43F1-9B47-1098E7AE2E18}|Assignment2\\Assignment2.csproj|c:\\school\\asp .net\\assignments\\assignment 2\\asp.net-assignment-2\\assignment2\\assignment2\\controllers\\borrowingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F69B76C-4C4C-43F1-9B47-1098E7AE2E18}|Assignment2\\Assignment2.csproj|solutionrelative:assignment2\\controllers\\borrowingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F69B76C-4C4C-43F1-9B47-1098E7AE2E18}|Assignment2\\Assignment2.csproj|c:\\school\\asp .net\\assignments\\assignment 2\\asp.net-assignment-2\\assignment2\\assignment2\\controllers\\readercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F69B76C-4C4C-43F1-9B47-1098E7AE2E18}|Assignment2\\Assignment2.csproj|solutionrelative:assignment2\\controllers\\readercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F69B76C-4C4C-43F1-9B47-1098E7AE2E18}|Assignment2\\Assignment2.csproj|c:\\school\\asp .net\\assignments\\assignment 2\\asp.net-assignment-2\\assignment2\\assignment2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F69B76C-4C4C-43F1-9B47-1098E7AE2E18}|Assignment2\\Assignment2.csproj|solutionrelative:assignment2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BorrowingController.cs",
+              "DocumentMoniker": "C:\\School\\Asp .Net\\Assignments\\Assignment 2\\asp.net-assignment-2\\Assignment2\\Assignment2\\Controllers\\BorrowingController.cs",
+              "RelativeDocumentMoniker": "Assignment2\\Controllers\\BorrowingController.cs",
+              "ToolTip": "C:\\School\\Asp .Net\\Assignments\\Assignment 2\\asp.net-assignment-2\\Assignment2\\Assignment2\\Controllers\\BorrowingController.cs",
+              "RelativeToolTip": "Assignment2\\Controllers\\BorrowingController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAowFwAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T22:45:00.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReaderController.cs",
+              "DocumentMoniker": "C:\\School\\Asp .Net\\Assignments\\Assignment 2\\asp.net-assignment-2\\Assignment2\\Assignment2\\Controllers\\ReaderController.cs",
+              "RelativeDocumentMoniker": "Assignment2\\Controllers\\ReaderController.cs",
+              "ToolTip": "C:\\School\\Asp .Net\\Assignments\\Assignment 2\\asp.net-assignment-2\\Assignment2\\Assignment2\\Controllers\\ReaderController.cs",
+              "RelativeToolTip": "Assignment2\\Controllers\\ReaderController.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAowFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T21:44:56.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\School\\Asp .Net\\Assignments\\Assignment 2\\asp.net-assignment-2\\Assignment2\\Assignment2\\Program.cs",
+              "RelativeDocumentMoniker": "Assignment2\\Program.cs",
+              "ToolTip": "C:\\School\\Asp .Net\\Assignments\\Assignment 2\\asp.net-assignment-2\\Assignment2\\Assignment2\\Program.cs",
+              "RelativeToolTip": "Assignment2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T19:19:23.272Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
