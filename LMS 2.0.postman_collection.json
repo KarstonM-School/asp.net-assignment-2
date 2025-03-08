@@ -1,0 +1,319 @@
+{
+	"info": {
+		"_postman_id": "9d921537-aa6c-47cb-98bc-46be4f5b4477",
+		"name": "LMS 2.0",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42900285"
+	},
+	"item": [
+		{
+			"name": "GetReqs",
+			"item": [
+				{
+					"name": "GetBooks",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "GetBooksId",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "GetBorrowings",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "GetBorrowingsId",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "GetReaders",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "GetReadersId",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "PostReqs",
+			"item": [
+				{
+					"name": "CreateBook",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5260/books/create/1/Macbeth/William Shakespeare/1623/Historical Fiction",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5260",
+							"path": [
+								"books",
+								"create",
+								"1",
+								"Macbeth",
+								"William Shakespeare",
+								"1623",
+								"Historical Fiction"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreateBorrowing",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5260/books/create/1/Macbeth/William Shakespeare/1623/Historical Fiction",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5260",
+							"path": [
+								"books",
+								"create",
+								"1",
+								"Macbeth",
+								"William Shakespeare",
+								"1623",
+								"Historical Fiction"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreateReader",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"Id\" : 1,\r\n    \"Name\" : \"Karston Matthews\",\r\n    \"Email\" : \"example@email.com\",\r\n    \"PhoneNumber\" : \"587-555-4444\",\r\n    \"Address\" : \"123 Address Ave\" \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5260/readers/create",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5260",
+							"path": [
+								"readers",
+								"create"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "PutReqs",
+			"item": [
+				{
+					"name": "EditBook",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"Name\" : \"Macbeth\",\r\n    \"Author\" : \"William Shakespeare\",\r\n    \"YearPublished\" : 1623,\r\n    \"Genre\" : \"Play\" \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5260/books/edit/1?genre=Play",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5260",
+							"path": [
+								"books",
+								"edit",
+								"1"
+							],
+							"query": [
+								{
+									"key": "genre",
+									"value": "Play"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "EditBorrowing",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5260/books/edit/1?genre=Play",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5260",
+							"path": [
+								"books",
+								"edit",
+								"1"
+							],
+							"query": [
+								{
+									"key": "genre",
+									"value": "Play"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "EditReader",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"Name\" : \"Carson Matthews\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5260/readers/edit/1?name=Carson Matthews",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5260",
+							"path": [
+								"readers",
+								"edit",
+								"1"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Carson Matthews"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "DeleteReqs",
+			"item": [
+				{
+					"name": "DeleteBook",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5260/books/delete/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5260",
+							"path": [
+								"books",
+								"delete",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeleteBorrowing",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5260/books/delete/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5260",
+							"path": [
+								"books",
+								"delete",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeleteReader",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5260/books/delete/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5260",
+							"path": [
+								"books",
+								"delete",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
